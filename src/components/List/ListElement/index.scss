@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid black;
+  width: 50%;
+  margin-top:10px;
+    p{
+      margin: 0 10px 10px;
+      width: 100%;
+    }
+    .data{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: flex-start;
+      min-height: 100px;
+      cursor: pointer;
+    }
+    #name {
+      min-height: 20px;
+      padding: 0;
+    }
+    #text {
+      max-width: 90%;
+      word-wrap: break-word;
+    }
+}
+
+img {
+  min-width: 30%;
+  border-right: 1px solid black;
+}
